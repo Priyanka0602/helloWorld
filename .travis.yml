@@ -1,0 +1,8 @@
+language: java
+jdk:
+- oraclejdk8
+script:
+- echo "Building"
+- ./gradlew build
+- echo "Testing"
+- ./gradlew test
